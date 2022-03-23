@@ -1,0 +1,61 @@
+@import "~antd/dist/antd.css"; 
+#editor-dashboard .row {
+  margin-top: 3%;
+}
+#editor-dashboard form.basic-form {
+  max-width: 650px;
+  width: 90%;
+  margin: auto;
+}
+.animated h1, .animated h6 , .MuiTypography-h6{
+  color: #fff;
+}
+.MuiRating-icon.MuiRating-iconFilled {
+  top: 2.5px;
+}
+.MuiRating-readOnly .MuiRating-icon.MuiRating-iconFilled {
+  top: 0;
+}
+
+
+#apppage .MuiButtonBase-root span{
+  font-size: 20px;
+  color: #81D452;
+}
+#apppage .MuiButtonBase-root span:active{
+  color: #243E16;
+}
+#sectors{
+  overflow: hidden;
+  clear: both;
+}
+#sectors .MuiBox-root{
+  padding: 30px 0;
+}
+#sectors .team-main{
+  padding: 30px;
+  background: #F0F0F0;
+}
+.MuiTab-root{
+  border-bottom: 1px solid black;
+  width: 15px;
+  min-width: 66px;
+}
+#sectors .makeStyles-root-116 > h3{
+  text-align: center;
+}
+.MuiBox-root .row:nth-of-type(2) h4{
+  margin: auto;
+  margin-top: 4.8vw;
+  margin-bottom: 3.8vw;
+}
+#sectors .MuiTypography-root .col-md-4 .card img{
+  height: 205px;
+  border-radius: 5px 5px 0 0;
+}
+.card-body{
+  min-height: 190px;
+}
+#sectors .MuiTypography-root  .card-text{
+  font-size: 14px;
+}

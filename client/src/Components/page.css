@@ -1,0 +1,154 @@
+/* Quotes page style */
+
+.quotes-block {
+    background-color: #fafbfe;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+  .quotes-block-content {
+    margin-top: 6%;
+  }
+  .quotes-block-content-p {
+    width: 60%;
+    margin: auto;
+  }
+  .block-title h2 {
+    margin: 30px 0 50px;
+  }
+  /* Contact us page style */
+  
+  .contact-us {
+    background-color: #fefeff;
+    padding-top: 2%;
+  }
+  #contact-us-p {
+    width: 60%;
+    margin: auto;
+  }
+  .contact-us-icons {
+    margin: 20px;
+    float: left;
+    color: #71c11c;
+    border: 1px solid #71c11c;
+    border-radius: 100%;
+    padding: 15px;
+  }
+  .contact-icons {
+    color: #71c11c;
+  }
+  .contact-us-h6 {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  #snd-msg {
+    background-color: #71c11c;
+    border-radius: 22px 22px;
+  }
+  
+  /* about page style */
+  
+  .flex-column {
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  .flex-column-tab {
+    color: black;
+  }
+  .flex-column-tab:hover ,.custom-active-link .flex-column-tab{
+    color: white;
+    background-color: #0dc835;
+  }
+  
+  /* porfolio page style */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  /* porfolio page style */
+  #textcolor {
+    color: #0dc835;
+  }
+  .MuiTab-textColorPrimary.Mui-selected {
+    color: black;
+  }
+  .tabs-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  
+    margin-right: 4%;
+    float: left;
+  }
+  .contact-us .btn-success {
+    background: #81d452 !important;
+  }
+  .MuiTab-textColorPrimary.Mui-selected .MuiTouchRipple-root {
+    border-bottom: 2px solid #81d452;
+    z-index: 1;
+  }
+  
+  button.scroll-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #81d452;
+    justify-content: center;
+    border-color: #81d452;
+    border-radius: 50%;
+    border-style: solid;
+    color: #fff;
+  }
+  
+  button.scroll-top-button:focus {
+    outline: none;
+    outline: none;
+  }
+  .react-multi-carousel-list .react-multi-carousel-item{
+    margin-top: -20px;
+  }
+  .ScrollUpButton__Container svg path {
+    fill : #fff !important;
+  }
+  
+  .container.services,
+  .container.products {
+    margin-top: 120px;
+  }
+  .container.services .product-wrapper,
+  .container.products .product-wrapper {
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+  .container.services .product-wrapper .item.product,
+  .container.products .product-wrapper .item.product{
+    width: 33%;
+    float: left;
+  }
+  
+  .container.products .filters {
+    background-color: #ccc;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  .container.products .filters .ant-select {
+    margin-right: 5px;
+  }
+  .container.products .ant-pagination {
+    margin-top: 30px;
+  }
