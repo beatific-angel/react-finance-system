@@ -18,19 +18,7 @@ export default class FileUpload extends React.Component {
         const data = new FormData()
         data.append('file', 'something');
         console.log('-----------------', data)
-        // fetch('http://localhost:5000/news', {
-        //     method: 'POST',
-        //     headers: {
-        //         'content-type': 'application/json'
-        //     },
-        //     body: JSON.stringify(data)
-        // })
-        //     .then(res => {
-        //         console.log('res---------', res)
-        //     })
-        //     .catch(error => {
-        //         console.log('Please check your connection');
-        //     })
+
     }
     render() {
         return (
