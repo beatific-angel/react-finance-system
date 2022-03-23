@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars updated */
 import React,{ useEffect, useState } from 'react'
 import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBCard, MDBInput } from "mdbreact";
 import './page.css';
